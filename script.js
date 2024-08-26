@@ -4,6 +4,7 @@ const aboutDiv = document.getElementById("about-div");
 let isScrolling;
 
 let count = 5;
+/// This api key is for testing, even if you get it, you can't do anything with it :)
 const apiKey = "j08brbAOMk1BtcsKMTkLkjaaMMXmtWTrR6PtrtfFzmc";
 const unsplashUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 let photosArray = [];
